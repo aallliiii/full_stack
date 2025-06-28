@@ -1,0 +1,47 @@
+Generated Output,timestamp
+"'An error occurred: litellm.AuthenticationError: geminiException - {
+  ""error"": {
+    ""code"": 400,
+    ""message"": ""API key not valid. Please pass a valid API key."",
+    ""status"": ""INVALID_ARGUMENT"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""API_KEY_INVALID"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""service"": ""generativelanguage.googleapis.com""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""API key not valid. Please pass a valid API key.""
+      }
+    ]
+  }
+}
+",2025-06-28 02:13:46.403654
+"'An error occurred: litellm.AuthenticationError: geminiException - {
+  ""error"": {
+    ""code"": 400,
+    ""message"": ""API key not valid. Please pass a valid API key."",
+    ""status"": ""INVALID_ARGUMENT"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""API_KEY_INVALID"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""service"": ""generativelanguage.googleapis.com""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""API key not valid. Please pass a valid API key.""
+      }
+    ]
+  }
+}
+",2025-06-28 02:13:49.725045

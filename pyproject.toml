@@ -1,0 +1,23 @@
+[project]
+name = "full_stack"
+version = "0.1.0"
+description = "full_stack using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.134.0,<1.0.0"
+]
+
+[project.scripts]
+full_stack = "full_stack.main:run"
+run_crew = "full_stack.main:run"
+train = "full_stack.main:train"
+replay = "full_stack.main:replay"
+test = "full_stack.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
